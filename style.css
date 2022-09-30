@@ -1,0 +1,38 @@
+	html {
+		font-family: Times New Roman Rounded;
+	}
+	body {
+	margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+	a {
+	text-decoration: none;
+    color: black;
+    font-size:20px;
+	}
+	p{
+		line-height:3;
+	}
+	section {
+	height: 100vh;
+    overflow: scroll;
+	}
+	section#nav {
+		width:40%;
+		text-align:center;
+		left:0;
+	}
+	img {
+		max-width:100%;
+	}
+	#head-img {
+		width:100%;
+	}
+	section#main {
+		width:60%;
+		right:0;
+	}
