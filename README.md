@@ -1,4 +1,4 @@
-<a href="http://roots-exhibition.github.io"><img src="https://roots-exhibition.github.io/header.png" /></a>
+<a href="httsp://roots.kabk.nl"><img src="https://roots.kabk.nl/header.png" /></a>
 
 ### KABK GRAPHIC DESIGN YEAR 3B EXHIBITION
   
@@ -15,4 +15,4 @@ ROOTS is a result of Image and Philosophy classes guided by tutors Katrin Korfma
 All rights reserved. Kindly contact the Royal Academy of Art, The Hague regarding any form of use or reproduction of photographs and any material in this publication.  
   
    
-<a href="http://kabk.nl"><img src="https://roots-exhibition.github.io/kabk.png" width="200"/></a>
+<a href="http://kabk.nl"><img src="https://roots.kabk.nl/kabk.png" width="200"/></a>
