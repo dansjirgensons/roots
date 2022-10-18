@@ -228,6 +228,7 @@ section#nav {
 	top:0;
 	height:30%;
 	border-bottom:0.1em solid black;
+    z-index:2;
 }
 /*#top-header {
 	min-height: 30vh;
