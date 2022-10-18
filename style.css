@@ -83,6 +83,7 @@ img {
 section {
     height: 100vh;
     overflow: scroll;
+
 }
 section::-webkit-scrollbar {
 	display: none;
@@ -212,6 +213,8 @@ object-fit: contain;
 	section {
 		height: auto;
 		width: 100% !important;
+            -webkit-overflow-scrolling: touch;
+
 	}
 section#nav {
 	position: fixed;
