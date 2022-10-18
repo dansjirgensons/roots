@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROOTS — KABK GD Y3 EXHIBITION 2022</title>
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link href="/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/includehtml.js"></script>
+    <style>
+    a[href$="about.html"]::before {
+        color: black;
+        content: '●';
+        font-size: 1.25em;
+        line-height: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <section id="nav">
+        <div include-html="/navigation.html"></div>
+    </section>
+    <section id="main">
+        <div include-html="/about-content.html"></div>
+    </section>
+    <script src="/script-activator.js"></script>
+</body>
+
+</html>
