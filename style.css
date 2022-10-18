@@ -121,8 +121,6 @@ section#nav {
 small {
     font-size: 0.8em;
     letter-spacing: 0;
-        padding: 0 5%;
-        display: block;
 }
 
 
@@ -194,6 +192,10 @@ font-size: 3em;
 		    padding: 0 5%;
             font-size:1.4em;
 	}
+    small {
+                padding: 0 5%;
+        display: block;
+    }
 	#cursor { display:none !important; }
 	section {
 		height: auto;
