@@ -1,6 +1,7 @@
 @font-face {
     font-family: ROOTS;
     src: url(/assets/times.woff);
+    font-weight: 400;
 }
 ::selection {
    background: rgba(0, 0, 0, 0.99);
@@ -22,6 +23,7 @@
 
 html {
     font-family: ROOTS, serif;
+    font-weight: 400;
     letter-spacing: 0.06em;
     /*		    -webkit-font-smoothing: none; */
 }
