@@ -196,6 +196,8 @@ overflow: auto;
 position: fixed;
 -o-object-fit: contain;
 object-fit: contain;
+background: black;
+height: 100%;
 }
 img {
       -webkit-user-select: none;  /* Chrome all / Safari all */
