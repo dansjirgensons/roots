@@ -1,0 +1,222 @@
+@font-face {
+    font-family: ROOTS;
+    src: url(/assets/times.woff);
+}
+::selection {
+   background: rgba(0, 0, 0, 0.99);
+   color: #FFF;
+}
+@media only screen and (min-width: 601px) {
+	  html, a, div, body, label, input, textarea, button {
+  cursor: none !important;
+}
+}
+#cursor {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: #000;
+  position: absolute;
+	z-index:101;
+}
+
+html {
+    font-family: ROOTS, serif;
+    letter-spacing: 0.06em;
+    /*		    -webkit-font-smoothing: none; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 1.7em;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p {
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+	cursor: pointer;
+	text-decoration: underline
+}
+
+img {
+    max-width: 100%;
+    min-width: 100%;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+section {
+    height: 100vh;
+    overflow: scroll;
+}
+section::-webkit-scrollbar {
+	display: none;
+}
+
+
+
+section#nav {
+    width: 40%;
+    text-align: center;
+    left: 0;
+}
+
+#top-header a:hover {
+	text-decoration: none;
+}
+#head-img {
+    width: 100%;
+}
+#artists {
+	padding:0 5%;
+}
+#artists a {
+    font-size: 1.25em;
+    display: inline-block;
+    line-height: 1.1;
+    margin-bottom: 1em;
+}
+
+#desc {
+    margin: 40px 0;
+    padding: 0 5%;
+}
+#desc small::after {
+	content:' ▾';
+}
+
+small {
+    font-size: 0.8em;
+    letter-spacing: 0;
+}
+
+
+
+section#main {
+    width: 60%;
+    padding: 0 1%;
+}
+
+span.outline {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+}
+
+#artist-header {
+    text-align: center;
+}
+
+#artistname {
+    text-transform: uppercase;
+        margin-block-end: 0.1em;
+}
+#social {
+	margin-block-start: 0em;
+    font-size: 0.8em;
+    letter-spacing: 0;
+}
+#art-title {
+font-size: 3em;
+    margin-block-end: 0;
+    margin-block-start: 0em;
+        margin-top: 5vh;
+    line-height: 1em;
+}
+#art-materials {
+    margin-block-start: 0em;
+/*        font-size: 0.8em;
+*/    letter-spacing: 0;
+    margin-top:1vh;
+        margin-block-end: 0;
+}
+/*#art-materials::before {
+	content:'(';
+}
+#art-materials::after {
+	content:')';
+}*/
+#art-description {
+	width: 80%;
+	margin-top:5vh;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 5vh;
+    text-align: justify;
+}
+#art-keywords {
+	text-align:center;
+	text-transform: capitalize;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		    padding: 0 5%;
+	}
+	#cursor { display:none !important; }
+	section {
+		height: auto;
+		width: 100% !important;
+	}
+section#nav {
+	position: fixed;
+	top:0;
+	height:30vh;
+	border-bottom:0.1em solid black;
+}
+/*#top-header {
+	min-height: 30vh;
+}*/
+	#head-img {
+		max-height:19vh;
+		min-width:auto;
+		width: auto;
+	}
+	section#main {
+		margin-top: 30vh;
+	}
+	section#main p {
+				padding:0 5%;
+	}
+	#artist-header {
+		padding:0 5%;
+	}
+	#art-title { font-size:2em; }
+	#art-description {
+	width: 100%;
+}
