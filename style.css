@@ -228,3 +228,9 @@ section#nav {
 	#art-description {
 	width: 100%;
 }
+#artistslist {
+    position: sticky;
+    top: 0;
+    background: white;
+}
+}
