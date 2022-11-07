@@ -8,3 +8,8 @@ $(document).ready(function() {
         });
     })
 });
+
+function remove(el) {
+  var element = el;
+  element.remove();
+}
