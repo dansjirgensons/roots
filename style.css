@@ -284,6 +284,9 @@ span.outline {
     p {
         font-size: 1.1em;
     }
+    .mobarrow {
+        display: none !important;
+    }
 }
 
 
