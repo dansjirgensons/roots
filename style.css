@@ -114,12 +114,12 @@ img {
 
 section {
     height: 100vh;
-    overflow: scroll;
+    overflow-y: scroll;
 
 }
 
 section::-webkit-scrollbar {
-    display: none;
+    /* display: none; */
 }
 
 
